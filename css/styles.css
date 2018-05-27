@@ -12,6 +12,7 @@ body{
 	}
 
 ul {
+	list-style: none;
 	margin: 0;
 	padding: 0;
 }
@@ -220,7 +221,7 @@ footer{
 
 	#main h2,
 	#contact h2 {
-		margin-top: 100px;
+		margin-top: 60px;
 	}
 }
 
