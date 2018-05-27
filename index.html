@@ -3,10 +3,12 @@
 <head>
 	<meta name="viewport" content="width=device-width">
 	<title>Berry's Bakery</title>
-	<link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<link rel="stylesheet" href="./css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
 </head>
 <body>
+  <!--Fixed header-->
 	<header>
     <div class="container">
       <div id="branding">
@@ -14,9 +16,9 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#showcase" class="slide">Home</a></li>
+          <li><a href="#main" class="slide">About</a></li>
+          <li><a href="#contact" class="slide">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -80,9 +82,50 @@
         </div>
     </section>
 
-    <button><a href="#" class="big-link">Back to Top</a></button>
+    <!--Contact-->
+    <section id="contact">
+      <h2>Find Us</h2>
+      <div class="grid">
+        <div class="info">
+          <ul>
+            <li>
+              <h3>Address</h3>
+              <p>500 Terry Francois Street San Francisco, CA 94158</p>
+            </li>
+            <li>
+              <h3>Contacts</h3>
+              <p>Email: info@mysite.com<br>Tel: 123-456-7890</p>
+            </li>
+            <li>
+              <h3>Opening Hours</h3>
+              <p>Mon-Fri: 8am - 7pm<br>Saturday: 9am - 7pm</p>
+            </li>
+          </ul>
+        </div>
+        <div class="message">
+          <h3>Enquiry</h3>
+          <form>
+            <div>
+              <input type="text" placeholder="Name">
+            </div>
+            <div>
+              <input type="email" placeholder="Email">
+            </div>
+            <div>
+              <textarea placeholder="Message" rows="5"></textarea>
+            </div>
+            <button class="button" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
     <footer>
       <p>Berry's Bakery, Copyright &copy; 2018</p>
     </footer>
+
+    <!--Javascript-->
+    <script src="js/script.js"></script>
 </body>
 </html>
