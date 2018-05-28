@@ -80,7 +80,7 @@ header nav {
 #showcase {
 	font-family: "Caveat", sans-serif;
 	min-height: 740px;
-	background: url("../img/showcase.jpeg") no-repeat 0 -400px;
+	background: url("../img/showcase.jpeg") no-repeat -360px -400px;
 	text-align: center;
 	color: white;
 }
